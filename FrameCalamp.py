@@ -1,6 +1,8 @@
 from Trama import Frame
 
 class FrameCalamp(Frame):
+    """This class define all the fundation of a message encoding in LMUDirect
+    app protocol"""
 	def __init__(self,trama):
 		super(FrameCalamp,self).__init__(trama)
 		self.option = ''
